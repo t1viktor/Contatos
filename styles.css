@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(40, 78, 110);
+    text-align: center;
+}
+
+
+.searchCtt{
+    width: 100%;
+    text-align: center;
+    padding: 3px 2px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+.addBtn{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: solid 1px white;
+    background-color: rgb(179, 141, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid rgb(17, 69, 129) 1px;
+    gap: 30px;
+    background-color: rgb(135, 173, 207);
+    margin: 10px 5px;
+}
+
+main section{
+    width: 100%;
+    background-color: rgb(179, 167, 130);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.letter{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.ctt{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.perfilDiv{
+    width: 15%;
+}
+
+.perfilCtt{
+    border-radius: 50%;
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+}
+
+.nomeDiv{
+   
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.perfilCtt{
+    height: 60px;
+    width: 60px;
+}
+
+.detailsCtt{
+display: none;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+
+height: 90vh;
+width: 90vw;
+background-color: antiquewhite;
+border-radius: 5px;
+
+position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonsDetails, .buttonsEdit, .buttonsAdd{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.editCtt, .saveEdit, .saveAdd{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(103, 142, 214);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.sairDetails, .sairEdit, .sairAdd{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(214, 103, 103);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.perfilCttDetails, .perfilPreview, .perfilPreviewAdd{
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+.cttEdit, .cttAdd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 90vh;
+width: 90vw;
+background-color: antiquewhite;
+border-radius: 5px;
+
+}
+
+.cttEdit{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cttAdd{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infosEdit, .infosAdd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.infosEdit input, .infosAdd input{
+    padding:5px;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    border: solid 1px black;
+}
+
+
